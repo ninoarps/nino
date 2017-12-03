@@ -1717,6 +1717,7 @@ h1 {
 
 h2 {
 	font-size: 2.25em;
+	font-weight: bold;
 }
 
 h3 {
@@ -1751,6 +1752,7 @@ h6 {
 
 	h2 {
 		font-size: 1.5em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -3529,6 +3531,10 @@ opacity: 0;
 	-ms-flex: 0 1 auto;
 }
 
+.content-spacing {
+	padding: 5em 0;
+}
+
 .wrapper.spotlight > .content {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -3925,11 +3931,19 @@ body {
 	margin: 0 auto;
 	width: 55em;
 	max-width: calc(100% - 4em);
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.05);
 }
 
 #main > header {
 	padding: 4em 0 2em 0 ;
 	text-align: center;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+
+}
+
+#main > header.blue-banner {
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.05);
 }
 
 #main > header .logo {
