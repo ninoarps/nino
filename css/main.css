@@ -3580,7 +3580,7 @@ opacity: 0;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		text-align: center;
+		text-align: left;
 	}
 
 	.wrapper.spotlight > :first-child {
