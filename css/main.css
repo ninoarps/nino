@@ -2022,9 +2022,10 @@ input[type="reset"].special,
 input[type="button"].special,
 button.special,
 .button.special {
-	box-shadow: none;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 	background-color: #72bee1;
 	color: #ffffff !important;
+	transition: all .15s ease;
 }
 
 input[type="submit"].special:hover,
@@ -2033,6 +2034,8 @@ input[type="button"].special:hover,
 button.special:hover,
 .button.special:hover {
 	background-color: #87c8e5;
+	transform: translateY(-1px);
+	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 input[type="submit"].special:active,
@@ -2041,6 +2044,8 @@ input[type="button"].special:active,
 button.special:active,
 .button.special:active {
 	background-color: #5db4dd;
+	transform: translateY(-1px);
+	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 /* Form */
@@ -3940,6 +3945,12 @@ body {
 	border-top-left-radius: .5em;
 	border-top-right-radius: .5em;
 
+}
+
+@media screen and (max-width: 980px) {
+	#main > header {
+		border-radius: 0;
+	}
 }
 
 #main > header.blue-banner {
