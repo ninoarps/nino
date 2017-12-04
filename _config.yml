@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Zahnarzt und Fachzahnarzt für Oralchirurgie
+email: info@zahnarztpraxis-arps.de
 description: >- # this means to ignore newlines until "baseurl:"
   Das Behandlungsgebiet der Zahnarztpraxis Nicolas Arps, Zahnarzt und Fachzahnarzt für Oralchirurgie, umfasst allgemein zahnärztliche Versorgungen sowie das gesamte oralchirurgische Spektrum wie z.B. Weisheitszahnoperationen, parodontalchirurgische Eingriffe, Implantationen, Wurzelspitzenresektionen, sowie andere ambulant durchführbare Operationen.
 
-baseurl: ""
-url: "https://ninoarps.github.io/nino" # https://ninoarps.github.io/nino/ ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ninoarps.github.io/nino" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
