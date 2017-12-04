@@ -18,8 +18,8 @@ email: info@zahnarztpraxis-arps.de
 description: >- # this means to ignore newlines until "baseurl:"
   Das Behandlungsgebiet der Zahnarztpraxis Nicolas Arps, Zahnarzt und Fachzahnarzt für Oralchirurgie, umfasst allgemein zahnärztliche Versorgungen sowie das gesamte oralchirurgische Spektrum wie z.B. Weisheitszahnoperationen, parodontalchirurgische Eingriffe, Implantationen, Wurzelspitzenresektionen, sowie andere ambulant durchführbare Operationen.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ninoarps.github.io/nino" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://zahnarztpraxis-arps.de" # the base hostname & protocol for your site, e.g. http://example.com https://ninoarps.github.io/nino
 
 # Build settings
 markdown: kramdown
