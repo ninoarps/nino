@@ -2040,10 +2040,12 @@ button.special:hover,
 
 .primary {
 	color: #72bee1;
+	cursor: pointer;
 }
 
 .primary:hover {
 	color: #87c8e5;
+	cursor: pointer;
 }
 
 input[type="submit"].special:active,
