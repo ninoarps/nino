@@ -2038,6 +2038,14 @@ button.special:hover,
 	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
+.primary {
+	background-color: #72bee1;
+}
+
+.primary:hover {
+	background-color: #87c8e5;
+}
+
 input[type="submit"].special:active,
 input[type="reset"].special:active,
 input[type="button"].special:active,
