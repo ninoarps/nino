@@ -2039,12 +2039,12 @@ button.special:hover,
 }
 
 .primary {
-	color: #72bee1;
+	color: #72bee1 !important;
 	cursor: pointer;
 }
 
 .primary:hover {
-	color: #87c8e5;
+	color: #87c8e5 !important;
 	cursor: pointer;
 }
 
