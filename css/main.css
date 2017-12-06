@@ -2039,11 +2039,11 @@ button.special:hover,
 }
 
 .primary {
-	background-color: #72bee1;
+	color: #72bee1;
 }
 
 .primary:hover {
-	background-color: #87c8e5;
+	color: #87c8e5;
 }
 
 input[type="submit"].special:active,
