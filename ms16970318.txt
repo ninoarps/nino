@@ -1,9 +1,5 @@
 {
-
   "Description": "Überprüfungsdatei für Domänen-Eigentümerschaft für Microsoft 365-Position im Website-Root",
-
   "Domain": "zahnarztpraxis-arps.de",
-
   "Id": "d0896975-ed6c-4757-85f9-bcfb92434e68"
-
 }
